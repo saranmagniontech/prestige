@@ -363,6 +363,8 @@
         width: 90%;
         margin: 0 auto;
     }
+
+    
 }
 @media(min-width: 320px) and (max-width: 480px){
    
@@ -459,3 +461,39 @@
         font-size: 40px;
     }
 }
+
+.city-carousal .card img {
+    height: 100%; /* Set the height of the image to fill its container */
+    width: 100%; /* Set the width of the image to fill its container */
+    object-fit: cover; /* Ensure the image covers the entire container */
+  
+   
+}
+
+
+@media(min-width: 320px) and (max-width: 768px){  
+
+.city-carousal .card {
+    height: 100%; /* Set the height of the card to match its image */
+   
+padding: 10px;
+   
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
