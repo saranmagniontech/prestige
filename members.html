@@ -143,21 +143,36 @@
                     placeholder="Select Journey Date">
                 </div>
               </div>
-              <div class="col-md-6  col-sm-12">
+
+              <div class="col-md-6 col-sm-12">
                 <div class="mb-3">
                   <div class="mb-2">Select Room Type</div>
                   <div class="row">
-                    <div class="col-md-6  col-sm-6">
-                      <input type="radio" id="standard" name="room_type">
-                      <label for="standard">Standard</label>
-                    </div>
-                    <div class="col-md-6  col-sm-6">
-                      <input type="radio" id="deluxe" name="room_type">
-                      <label for="deluxe">Deluxe</label>
+                    <div class="col-md-12">
+                      <select id="room_type" name="Room Type" class="form-select">
+                        <option value="standard">Standard</option>
+                        <option value="deluxe">Deluxe</option>
+                      </select>
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> 
+              
+
+
+
+
+
+              
+
+
+
+
+
+
+
+
+
               <div class="col-md-6 col-sm-6">
                 <div class="mb-3">
                   <input type="text" placeholder="Enter Your Destination" name="Destination"
@@ -178,12 +193,19 @@
               </div>
               <div class="col-md-6 col-sm-6">
                 <div class="mb-3">
-                  <select name="circle" id class="form-select">
-                    <option selected disabled>Select Circle</option>
-                    <option value="option 1">option 1</option>
-                    <option value="option 2">option 2</option>
-                    <option value="option 3">option 3</option>
-                    <option value="option 4">option 4</option>
+                  <select name="Membership Prefix" id class="form-select">
+                    <option selected disabled>Membership Prefix</option>
+                    <option value="PVJNL" >PVJNL</option>
+                    <option value="PVWN">PVWNL</option>
+                    <option value="PVDNL">PVDNL</option>
+                    <option value="PVANL">PVANL</option>
+
+                    <option value="PVBNL">PVBNL</option>
+                    <option value="PVRNL">PVRNL</option>
+                    <option value="PVSNL">PVSNL</option>
+                    <option value="PVTNL">PVTNL</option>
+                    <option value="PVVNL">PVVNL</option>
+                  
                   </select>
                 </div>
               </div>
@@ -298,14 +320,7 @@
                       <a href="https://www.instagram.com/prestige_clubs_resorts/"><img src="images/common/instagram.png"
                           alt="instagram"></a>
                     </span>
-                    <span>
-                      <a href><img src="images/common/linkedin.png"
-                          alt="linkedin"></a>
-                    </span>
-                    <span>
-                      <a href><img src="images/common/x_twitter.png"
-                          alt="twitter"></a>
-                    </span>
+                
                   </div>
                 </div>
               </div>
